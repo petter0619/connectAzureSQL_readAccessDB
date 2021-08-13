@@ -6,14 +6,14 @@ const async = require('async');
 const config = {
   authentication: {
     options: {
-      userName: "petter", // update me
-      password: "Gtot4490" // update me
+      userName: "<username>", // update me
+      password: "<password>" // update me
     },
     type: "default"
   },
-  server: "petter-afry-test1.database.windows.net", // update me
+  server: "<server>", // update me
   options: {
-    database: "petter1", //update me
+    database: "<database>", //update me
     encrypt: true
   }
 };

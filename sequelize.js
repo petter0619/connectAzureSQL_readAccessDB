@@ -1,8 +1,8 @@
 var Sequelize = require('sequelize');
-var userName = 'petter';
-var password = 'Gtot4490'; // update me
-var hostName = 'petter-afry-test1.database.windows.net';
-var sampleDbName = 'petter1';
+var userName = '<username>';
+var password = '<password>'; // update me
+var hostName = '<server>';
+var sampleDbName = '<datbase>';
 
 // Initialize Sequelize to connect to sample DB
 var sampleDb = new Sequelize(sampleDbName, userName, password, {

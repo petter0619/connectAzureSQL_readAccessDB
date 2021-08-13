@@ -1,10 +1,10 @@
 const { Sequelize } = require('sequelize');
 
 // Database config
-const userName = 'petter.carlsson@afry.com@todoaserver0619';
-const password = 'Gtot4490';
-const hostName = 'todoaserver0619.database.windows.net';
-const sampleDbName = 'tododb0619';
+const userName = '<username>';
+const password = '<passowrd>';
+const hostName = '<host>';
+const sampleDbName = '<database>';
 
 const sequelize = new Sequelize(sampleDbName, userName, password, {
     dialect: 'mssql',
